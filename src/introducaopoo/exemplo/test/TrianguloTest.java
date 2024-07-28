@@ -1,5 +1,7 @@
 package Aintroducaopoo.exemplo;
 
+import introducaopoo.dominio.Triangulo;
+
 import java.util.Scanner;
 
 public class TrianguloTest {
@@ -7,7 +9,7 @@ public class TrianguloTest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        Triangulo x, y;
+       Triangulo x, y;
         x = new Triangulo();
         y = new Triangulo();
 
