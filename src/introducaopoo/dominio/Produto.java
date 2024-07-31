@@ -1,39 +1,36 @@
-package dominio;
+package academy.devdojo.maratonajava.javacore.Bintroducaoclasses.exercicios.dominio;
 
 public class Produto {
-	
-	public String name;
-	public double price;
-	public int quantity;
-	
-	
-	public void imprime(String name, double price, int qtd) {
-		System.out.printf("Product data");
-	}
-	
-	
-	public double totalValueInStock() {
-		return price * quantity;
-	}
-	
-	public void addProducts(int quantity) {
-		this.quantity += quantity;
-	}
-	
-	public void removeProducts(int quantity) {
-		this.quantity -= quantity;
-	}
-	
-	public String toString() {
-		return name
-				+ ", $ "
-				+ String.format("%.2f", price)
-				+ ", "
-				+ quantity
-				+" units, Total: $ "
-				+ String.format("%.2f", totalValueInStock());
-	}
-	
+    String nome;
+    int codigo;
+    int estoque;
 
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setEstoque(int estoque) {
+        if (estoque < 0) {
+            System.out.println("Negativos não permitidos");
+        } else {
+            this.estoque = estoque;
+        }
+    }
+
+    public int getEstoque() {
+        return estoque;
+    }
 }
-	
