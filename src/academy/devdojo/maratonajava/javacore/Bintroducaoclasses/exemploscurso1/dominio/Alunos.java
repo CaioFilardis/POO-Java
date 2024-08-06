@@ -1,4 +1,4 @@
-package dominio;
+package academy.devdojo.maratonajava.javacore.Bintroducaoclasses.exemploscurso1.dominio;
 
 public class Alunos {
 	

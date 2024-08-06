@@ -1,8 +1,10 @@
-package test;
+package academy.devdojo.maratonajava.javacore.Bintroducaoclasses.exemploscurso1.test;
 
-import java.util.Scanner;  
+import academy.devdojo.maratonajava.javacore.Bintroducaoclasses.exemploscurso1.dominio.Alunos;
 
-import dominio.Alunos;
+import java.util.Scanner;
+
+
 
 public class AlunosTest {
 	
