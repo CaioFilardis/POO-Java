@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/0.exercíciosbasicos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bexerciciosedesafiosjava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/exercíciosbasicos" vcs="Git" />
   </component>
 </project>
