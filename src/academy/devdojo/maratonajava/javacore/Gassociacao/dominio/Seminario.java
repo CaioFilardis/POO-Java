@@ -6,8 +6,9 @@ public class Seminario {
     private Local local;
 
     // construtor
-    public Seminario(String titulo) {
+    public Seminario(String titulo, Local local) {
         this.titulo = titulo;
+        this.local = local;
     }
 
     // sobrecarga
