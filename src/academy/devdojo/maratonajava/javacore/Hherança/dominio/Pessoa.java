@@ -6,6 +6,17 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+
+    public Pessoa(String nome) {
+        System.out.println("Denntro do construtor pessoa");
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf) {
+        this(nome);
+        this.cpf = cpf;
+    }
+
     public void imprime() {
         System.out.printf("Nome: %s%n", this.nome);
         System.out.printf("CPF: %s%n", this.cpf);
