@@ -13,13 +13,13 @@ public class ContaATest01 {
         contaOrigem.titular = "Caio";
         contaOrigem.saldo = 97.67;
 
-        contaDestino.numero = 1567;
+        contaDestino.numero = 1568;
         contaDestino.titular = "Guto";
         contaDestino.saldo = 0.0;
 
         Transferir transferir = new Transferir();
         transferir.tranferir(contaOrigem, contaDestino);
 
-        System.out.printf("Saldo atual da conta origem: %.2f", contaOrigem.saldo);
+        System.out.printf("\nSaldo atual da conta origem: R$ %.2f", contaOrigem.saldo);
     }
 }
