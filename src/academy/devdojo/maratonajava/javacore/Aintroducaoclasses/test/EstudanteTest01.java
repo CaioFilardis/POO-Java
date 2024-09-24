@@ -5,15 +5,13 @@ import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudant
 public class EstudanteTest01 {
 
     public static void main(String[] args) {
-        Estudante x;
-        x = new Estudante();
+        Estudante estudante = new Estudante(); // intância do objeto
+        estudante.name = "Caio";
+        estudante.idade = 23;
+        estudante.sexo = 'M';
 
-        x.nome = "Caio";
-        x.idade = 23;
-        x.sexo = 'M';
-
-        System.out.println(x.nome);
-        System.out.println(x.idade);
-        System.out.println(x.sexo);
+        System.out.println(estudante.name);
+        System.out.println(estudante.idade);
+        System.out.println(estudante.sexo);
     }
 }

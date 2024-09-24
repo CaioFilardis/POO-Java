@@ -1,9 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio;
 
-public class Estudante {
+public class Professor {
 
-    // Atributos (variáveis de instânica)
-    public String name = "Zoro";
+    public String nome;
     public int idade;
     public char sexo;
 }
