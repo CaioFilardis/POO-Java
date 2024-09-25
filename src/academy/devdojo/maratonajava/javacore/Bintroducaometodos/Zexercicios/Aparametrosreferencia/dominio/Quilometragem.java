@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio;
 
 public class Quilometragem {
 

@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.test;
 
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.ContaA;
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.Transferir;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.ContaA;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.Transferir;
 
 public class ContaATest01 {
 

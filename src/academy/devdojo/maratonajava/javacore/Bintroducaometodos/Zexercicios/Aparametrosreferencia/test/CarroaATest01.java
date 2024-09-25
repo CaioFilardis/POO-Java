@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.test;
 
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.CarroA;
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.Quilometragem;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.CarroA;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.Quilometragem;
 
 public class CarroaATest01 {
 

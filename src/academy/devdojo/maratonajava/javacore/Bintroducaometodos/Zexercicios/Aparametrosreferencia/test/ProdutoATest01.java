@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.test;
 
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.Estoque;
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.ProdutoA;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.Estoque;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.ProdutoA;
 
 public class ProdutoATest01 {
 

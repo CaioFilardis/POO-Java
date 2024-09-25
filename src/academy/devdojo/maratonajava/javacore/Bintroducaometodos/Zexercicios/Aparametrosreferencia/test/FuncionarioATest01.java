@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.test;
 
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.AumentoSalarial;
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.FuncionariosA;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.AumentoSalarial;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.FuncionariosA;
 
 public class FuncionarioATest01 {
 

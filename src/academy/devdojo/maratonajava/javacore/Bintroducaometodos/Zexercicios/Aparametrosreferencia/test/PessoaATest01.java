@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.test;
 
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.NovoEndereco;
-import academy.devdojo.maratonajava.javacore.Bintroducaometodos.exercicios.dominio.PessoaA;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.NovoEndereco;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Aparametrosreferencia.dominio.PessoaA;
 
 public class PessoaATest01 {
 
