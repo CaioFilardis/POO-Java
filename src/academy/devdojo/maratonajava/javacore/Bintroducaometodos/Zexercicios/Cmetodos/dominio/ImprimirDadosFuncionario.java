@@ -3,11 +3,11 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Zexercicios.Cme
 public class ImprimirDadosFuncionario {
 
     public void imprime(FuncionarioA funcionario) {
-        System.out.println("Nome: "+funcionario.nome);
-        System.out.println("Idade: "+funcionario.idade);
+        System.out.println("Nome: "+funcionario.getNome());
+        System.out.println("Idade: "+funcionario.getIdade());
 
-        for (double salarios :funcionario.salario) {
-            System.out.println("Salarios: "+salarios);
+        for (double salarios :funcionario.getSalario()) {
+            System.out.print(salarios+" | ");
         }
     }
 }

@@ -8,13 +8,16 @@ public class FuncionarioTest01 {
     public static void main(String[] args) {
         FuncionarioA funcionario = new FuncionarioA();
         ImprimirDadosFuncionario imprimir = new ImprimirDadosFuncionario();
+        double[] salarios = {1700.50, 989.56, 2000.00};
 
-        funcionario.nome = "Caio";
-        funcionario.idade = 23;
+        funcionario.setNome("Caio");
+        funcionario.setIdade(23);
+        funcionario.setSalario(salarios);
 
         imprimir.imprime(funcionario);
+        funcionario.calcularMediaSalarios();
 
-        funcionario.calcularMediaSalarios(1700.50, 989.56, 2000.00);
+
 
     }
 }
