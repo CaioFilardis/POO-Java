@@ -14,8 +14,9 @@ public class CarroTest01 {
         outroCarro.imprime();
 
         System.out.println("=======================");
-        // só assim para
+
         Carro.setVelocidadeLimite(150);
+
         meuCarro.imprime();
         seuCarro.imprime();
         outroCarro.imprime();
