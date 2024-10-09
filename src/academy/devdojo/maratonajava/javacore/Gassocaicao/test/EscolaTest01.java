@@ -6,15 +6,15 @@ import academy.devdojo.maratonajava.javacore.Gassocaicao.dominio.Professor;
 public class EscolaTest01 {
 
     public static void main(String[] args) {
-        Professor professor1 = new Professor("Jiraya");
-        Professor professor2 = new Professor("Kakashi");
-        Professor[] professores = {professor1,professor2};
+        //Professor professor1 = new Professor("Jiraya");
+        //Professor professor2 = new Professor("Kakashi");
+        //Professor[] professores = {professor1,professor2};
 
-        Escola escola = new Escola("Konoha", professores);
+        //Escola escola = new Escola("Konoha", professores);
 
         /*  Sem construtor sobrecarregado
         Escola escola = new Escola("Konoha");
         escola.setProfessores(professores); */
-        escola.imprime();
+        //escola.imprime();
     }
 }
