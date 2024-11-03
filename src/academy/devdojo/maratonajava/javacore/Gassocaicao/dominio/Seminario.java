@@ -23,14 +23,14 @@ public class Seminario {
         this.titulo = titulo;
     }
 
-    public Seminario(String titulo, Aluno[] aluno) {
+    public Seminario(String titulo, Local local) {
         this(titulo);
-        this.aluno = aluno;
+        this.local = local;
     }
 
     public Seminario(String titulo, Aluno[] aluno, Local local) {
-        this(titulo, aluno);
-        this.local = local;
+        this(titulo, local);
+        this.aluno = aluno;
     }
 
     public String getTitulo() {
