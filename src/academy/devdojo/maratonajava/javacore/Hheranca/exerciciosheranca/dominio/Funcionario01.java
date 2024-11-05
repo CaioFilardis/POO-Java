@@ -1,9 +1,12 @@
 package academy.devdojo.maratonajava.javacore.Hheranca.exerciciosheranca.dominio;
 
+import academy.devdojo.maratonajava.javacore.Hheranca.dominio.Pessoa;
+
 public class Funcionario01 {
 
     private String nome;
     private double salario;
+
 
     public void imprime() {
         System.out.printf("Salário: R$ %.2f%n", this.salario);

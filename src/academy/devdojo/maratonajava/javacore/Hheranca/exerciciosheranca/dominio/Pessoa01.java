@@ -5,6 +5,12 @@ public class Pessoa01 {
     private String nome;
     private int idade;
 
+    public Pessoa01() {
+    }
+
+    public Pessoa01(String nome) {
+        this.nome = nome;
+    }
     public void imprime() {
         System.out.println("Nome: "+this.nome);
         System.out.println("Idade: "+this.idade);

@@ -4,6 +4,14 @@ public class Aluno01 extends Pessoa01{
 
     private String matricula;
 
+
+    public Aluno01() {
+    }
+
+    public Aluno01(String nome, String matricula) {
+        super(nome);
+        this.matricula = matricula;
+    }
     // sobreescrevendo
     public void imprime() {
         super.imprime();
