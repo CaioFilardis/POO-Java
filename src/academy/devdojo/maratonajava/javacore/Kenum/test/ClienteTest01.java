@@ -10,7 +10,6 @@ public class ClienteTest01 {
         Cliente cliente1 = new Cliente("Sasuke", TipoCliente.PESSOA_FISICA, TipoPagamento.DEBITO);
         Cliente cliente2 = new Cliente("Naruto", TipoCliente.PESSOA_JURIDICA, TipoPagamento.CREDITO);
 
-
         System.out.println(cliente1);
         System.out.println(cliente2);
 
@@ -22,5 +21,7 @@ public class ClienteTest01 {
 
         TipoCliente tipoCliente2 = TipoCliente.buscarCliente("Pessoa Física221");
         System.out.println(tipoCliente2);
+
+
     }
 }

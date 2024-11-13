@@ -1,6 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Hheranca.exerciciosheranca.test;
 
+
 import academy.devdojo.maratonajava.javacore.Hheranca.exerciciosheranca.dominio.Aluno01;
+import academy.devdojo.maratonajava.javacore.Hheranca.exerciciosheranca.dominio.Pessoa01;
 
 public class Test01 {
 
