@@ -44,5 +44,9 @@ public class PatternMatcherTest03 {
         while (matcher2.find()) {
             System.out.println(matcher2.start()+" "+matcher2.group());
         }
+
+        Integer x = 0x59A;
+        System.out.println(x);
+
     }
 }

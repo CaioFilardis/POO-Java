@@ -6,8 +6,10 @@ import java.util.regex.Pattern;
 public class PatternsMatcherExercice01 {
 
     public static void main(String[] args) {
-        String texto = "aca";
-        String url = "sfdsfsdf54s5f45sf";
+        String texto = "joao@gmail.com, maria_silva123@hotmail.com, emailinvalido@.com";
+        String url = "([a-zA-Z0-9\\.])+@([a-zA-Z\\.])+(\\_([a-zA-Z])+)+";
+        System.out.println("Email inválido");
+        System.out.println("@.com"+texto.matches(url));
 
         Pattern pattern = Pattern.compile(texto);
         Matcher matcher = pattern.matcher(url);

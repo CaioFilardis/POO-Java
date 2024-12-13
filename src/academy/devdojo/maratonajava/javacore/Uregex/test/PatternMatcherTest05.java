@@ -13,7 +13,7 @@ public class PatternMatcherTest05 {
         // \\S = Todos os caracteres, excluindo os brancos
         // \\w = Tudo que for de a-z, dígitos e '_'
         // \\W = Tudo que não for a-z, díigots e '_'
-        // [] =
+        // [] = Seleção
         /* Quantificadores:
             ? Zero ou uma ocorrencias
             * Zero ou mais ocorrencias (caracteres)
@@ -29,13 +29,10 @@ public class PatternMatcherTest05 {
         System.out.println("#@!naruto@mail.com".matches(regex));
         System.out.println(Arrays.toString(texto.split(",")));
         System.out.println(texto.split(",")[1].trim()); // remove espaços
+
         // Classe Pattern
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
-        System.out.println("texto:  "+texto);
-        System.out.println("indice: 0123456789");
-        System.out.println("regex "+regex);
-        System.out.println("Posicoes encontradas");
 
         while(matcher.find()) {
             System.out.println(matcher.start()+" "+matcher.group());
